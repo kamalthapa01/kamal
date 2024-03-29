@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online shopping  of Nepalgunj</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+</head>
+<body>
+
+    
+    <header>
+<a href="#" class="logo"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxEQEhUTEhIWFhUVFRYZFRUYFxUXFhUeFxcaFhYYGBgZHSggGh4lGxYVIjEiJykrLi4uFyAzODMsNygvLisBCgoKDg0OGxAQGy0mICUwLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4AMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQYBBAcCAwj/xABGEAABAwIEAwQGBgcFCQEAAAABAAIDBBEFEiExBkFRBxMiYRQycYGRoSNCUnKxshUzNGJzwfAkVYKS0UNjdJOiwtLh4hb/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIEAwUG/8QAMhEAAgIABAQDBwQCAwAAAAAAAAECEQMSITEEQVFhEyJxBTKBkaGx8BRCweEj0SQzNP/aAAwDAQACEQMRAD8A7iiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAixdLoDKIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAwV85ZmtBLiABuSQAPeorHOI6ajLBO/KX3ygNc46bk5RoNQuXdosVQyfxyvkhkGeG58IB+qANNLjXoQueJiKCs28HwUuImot5U7p09a3rqdFfxtRd8yFsudz3BuZguwE6C79t7DS+6soX5pa4jUaHcHpbUFfoDhjFBV00U3NzfF5OHhcPiCq4WK52mafaXs6PCxjKDbT0fry+aJdadfWxwRuklcGsaLuJ/rU+S2rri/aFxKaqcxMd9DESB0c4aF58uQ955q2JiKCsy8FwcuKxci23b7E5NxZX4hKYqBndsG8hAzAdXON2s9gBKt3DGF1VOHek1JnLrEXBsy172JPPTkNlQ+HJMUdC1lFA2KLfvHAAyHm4uf61/IWXScAZUNgYKpzXTa5y0ADc2AsBysq4eurv8Ag0celhLw4ZUuiac/Vvv0TJNEVQ7QMcno2RGFwBe5wddodsARutEIOclFczyZSUVbLei5HQcc1z5Y2mRtnSMafA3YuAPyK62r4uDLCrMRCansZREXIuEREAREQBERAEREAREQBERAFgrKICA4k4bpavK+cO+jDtWuLdDq4G3LRV6pqaXGaeSCBrmyQNDos7cu3hbY3OhAykHXUK+yNBFjsd1T6x9BglnNhcHTkizLuNm7+u6wAzDQdVzmktdK5mzhsSTqMczmvcS2T56dzjj4y0kEWIJBB3BBsQfeujdkeK2MlM47/SM+TXj8p+Kju0TCWHu66AfRVAaXaWs5wu11uWYfMearGAYkaWoimH1HDN5tOjx/lJWSP+Of5sfS4uXjuDeVa/aS5HYOP8Z9FpHlptJIe7Z5Zh4ne5tz7bKk9nvCjaj+01AHdMPgafVcW7l1/qj5kHovXG9UcRxCKmiN2tysB5XfZz3e5tv8pW72gYgKdkdBB4Y2Rtz25jZrT8LnrcLZhYTx8alsjwsXG/RcGorSWJq+qWyX53JvEu0CkhOWJrpbaXbZrPc47+4WWrT9pkJPjgkaOoc13yNlzIBfaop3xmz2OYTqA5paSOoBC9v9FhVT+58948zumE4vDVszwvDhz3BaejgdQqh2t/q6f77/AMoVI4bxh1HOyQHw3AkHJzSdfhuPMK7drR+ip/vv/KFmjgeDxEVyex0eJnw2c8oZgySN5vZr2ONt7NcCbfBdo4e4mgri8RB4yBpOYAete1rE9CuIK/8AZGfHU/di/F60cbhKUM75f7OeBNqVdS/4niMVMwySvDWjmefkANSfIKn1HaZCDZkEjh1Ja35aqu9pOJumqjFfwQgADlmIDnH5ge5VZjC4gNBJOwAuT7guXD8HGUFLE59y+Jju6R3nBsQFTDHMGlokbcNJuR/VlCY1xzSUziwF0rxuGWsPIuOnwuq3iuNvpsMpoWEtklYQ47FrWkh1uhJIHxVDVMDg1O29rdEzxmqSOlR9psd/FTvA6h7SfgQPxVowPiGnrB9C+7h6zHCz2+0cx5i4XEZaaRgBexzQ71S5rgHewkar3h9bJBI2WM2cw3Hn1B6g7ELtPgcOS8m/rZSOPJPzH6DRamG1Ynijlbs9jXD3i9ltryjYEREAREQBERAEREAUZi+CU9WGtnjDw0kt1IIvvqDdSawUq9yYylF3F0ylR47R1j5MNET2tyvjabNDPo/D4dbixboSPqrk2JUhglkicbmN7mk9cptdd6p8Dpo5XTshY2V18zwNTff2XXF+NmZa+pH+8cfjZ381lx08qbPovY+LB4so4dqOVNpu/Ns2WXskwzPNJUHZjcrfvP394aP+paHaIwivlvzEZHs7to/EFWrshZalkPWc/JjVtdoHDLqpomhF5YxYt5yN3sPMEkj2lbvZ044bTfM8f21KWLxE+zr5FG4IrIYatj57BtnBrjsxxtZx6cxfldXLtDqaeooy6ORkjopIzdrg7LnJbqRtcX+C5e9pBIIII0IIsQehB2KnMO/YKv8AiU35nL1cbBTxI4l62jxo4jUXEgXbLo/aQwmjpH9C0E+bo7j8pXOHLt1dhTayhbC42zRMLXfZcGgtPx+V1Xi5qEsOT6snBjmUkcWp5cjmutfK5rrcjYg2PwXauH8bpaq/o5AcAC9uUtc326WOvQrjuKYZLSyGOZha4bdHebTzCuHZN+un/ht/Mo4zDjPD8S9icGTjLKVzjD9uqP4h/AKw9k0QM8ziNWxtAPTM43/AKu8Yft1R/FP4BWXsk/W1H3Gfi5Wx/wDzfBfwVh/2/nc+faww+kQnkYiB7Q43/EKqYHPHHURPlF42yNLxa+gO9udjY+5db404f9Nhs2wlYc0ZOx6tPkfxAXG6qmfE8skaWubu1wsR/XVV4ScZ4WQnGTjPMdc4nr6Wpo52MljkIhdI0NcHEZNQ6w21t8Vx5TfC+1X/AMFP/wBqhV04bC8NygtdiuLPPTO18DG9BT/dPyc4KfUBwJ+wQfdd+dyn15GJ78vVm2PuoIiKhYIiIAiIgCIiAIiIDBXDO0WPLiM/nkPxY1dzXFu1Nlq8/vMjPyI/kuHEe6ev7Ef/ACWusWW/sxlbFQFziADO7cgakMaBrzJVskxSBsrYXStErhdsd/ER7PcfguZcJU5qm09K5ru6DaiUuyuyl5Lo4/FtdupHmp+rwmSOpop3hplfOWzPbe36rKwAnllYT7SeqmEnlVdivFYMJcTPPLV5mvrX2d89VW+k9iseHSuIqDTl7dDmcwPHkTcELzT4Xh0cTsrYe5cWl5Lg5hLfVuXEjS6jf0M2WpqCYKR57wE96wuksY2WI0sAddet1scS4bGY4YRHGBLUwBzGtaAQ0l7+X2Wn3e1dfElW/wBTD4WE5RV71exuRYLhr25mwU7mn6wawtPvGikKCuhkzMicD3TsjgPqloGnwI2VXwbD6d9XVRtZHJThkJczKx0YlBdfS2UODQ29vJSvDtLFGZ7NYD6RJawaCAbAAdB5eajPKW/3InhQgnvdJ7VvW5u1k1LJIKaXI57ml4jc29wDYkXFuXt0XvDsEpqdznQxNYXCziL6je2653ilRLUVVRLBTyulgmjySNGjRBdr2G5+tdxsL8tF0bCa8VETZQxzQ8XAdlvbr4SR87qIYma0X4jhvCjGXXfbR78vzc0sSw/D2va6eKHPM8NaXMBL3HYXtutrDqClhe8QRMY4Bofkbl31aDZaXEMMjp6QsDDlkkdZ+bcRPttytf3gLRNZO2nr5GgCZkzvVu4DLFCNLi58Ivsu9Npa79+9GO6exbARstOvw2Co0miY+22YAkew7hUSgqm01PBVxS97UTPY2YOJe+XMdYxc+HLbQ+XmrFDSh+JyynTuaeJrRe185eS7z0FlMsPLrfX6EKVm5S8N0cOYshaMzS197kFp3aQTaxXydg+GhpeYacMBsXZWZQb2sTsDda8uGels7wFrmmZ0gjfcxStA7tuYDkcuYGxGo0K+NZRQCknEdPHHaWPvojbumlr4y52mgb3dnXAGh2BuoVvdsadETlDVUjA2OGSEAeqxjmaX10AKklA4VgcbNX01KLjeOPf/ADDZToCo6vQuroyiIoJCIiAIixdAZRYul0BlFi6XQGVyPtTopH1rO7Y55MLNGtc46PeNgF1u6Kk4Z1Rq4Pinw2L4iV7/AFK3wHRuhoYWSMLXgPuHCzhmkcdemllLYlAx4bndlySMe03A1a64GvXb3resqbjFD6dXdxLcwQRNkc25Ake8ua29uQF/mjeVJJdiILxsWU5OlrJvf5L1aS29SwVeDwzOD3sGcCweC5rrb2zNINrk6L1U4PBKxkcjM7WG7Q4udrYjUk3do4jXqovDXvo5RTSuc6J/7PK43IO/cPPMgatPMC241shKla8jnPNBqpWuT/Nu65MjXYbBHA6JrWxRFpByWjtm0JBbax81qYTwxS0w+jjGY/7R3ik1FvWOo/8AajuI6Q1lZDSvv3DIjPINR3hzFjWm3QgH3r70l6B7YXFzqaQ2he43MLjtE4n6p+qTsdOipmt7aLQ7vDksNJTdyWZx7ctb1lWtVt30JLAcGZRxd0xznXc5znvN3Oc43JJAC26KkbCHBt7Oe59uTS7V1vIm59ritnMs3XWq0RklJybberPhLT5nsd9i9veMv4FfOmoWRvke24Mrg54vcXAy3A5EgC/sC27pdTqVNGPCKdr+8bDGJPthjQ742uvdVh8MpBkiY8jQFzQSPLVbd1lLYpHxlhDhbUD90lp082kFeI6RjWloGjr5r3Oa++YnU+9fe6ZlBJoUmDwwkGNpZbZoe8MH+DNl+SkVi6XUttgyixdLqAZRYul0B5eNDy03VNquH61jHv8A0pL4WudqxoGgvqc2gV0K5xhGDVde0+kVrzEJJGPhFw4mN5aWuPQix56FcsXWlTfxo38FSzScoxSq7ipN77Kn07La3saUj64RUkja+QmrkY3KQB3eb1je/it7lt4vS10NTTQDEZHd+5wvlALQ0b2zar78QVURxCgpIgLQvFwNhtZvua0/EKQxtufF6Jv2I5XH3tfb5tCzZVrq90t32s9TxJeRuEUnDEnWSGyUsv7ey+B867B6iFuaXF3xi9szg1o+b1GVNNWtrIKZmIyObNGZDJYeEAOtYZtQcvVbvEXD0TTPVVUjpic4giuWtaXCzGDXUl1ug58rrU4bmikxCBsUgkEFEIy4XsXMsHWPMXeNVaUako7a9WVwZ5sKWIqlUZX/AI4KKeXSnlt02k73e11Z5xClr46uCmGISO75riX5QMuQEjS+tyFfMLp3xRMZJKZXtBzSOABdqTcgbKt1rc2MwfuUznH3l4VxC7YUUnJrqedxuI3DCTS1jbqKVtuXRLlRlc3xLDqr9JtjZWvaZonuzhovGwOeWx2zeIA7E9V0hVG2fGvuUfwu/wD+0xo3XqiOAm4PEar3JPVJ/dM0Mc4bqhDI5+ISSCNrpMjo22JZ4m/W0sQDdQz314gpJRXyXqpGx5bDwXJF7315dFs8UcSVFVHOKUBtNEC2WY6F9/CWtv1v7deXPThwcxuwzNLK50r435HHwMDXMkysby3Kyzat5Lrrb618T2uHhOOGvHyXb8uSDekG6dRpcn91yNrFcMq4q6lj9Pe58rXt7zKAWNAzEWzeIEgb9FM1nDFQ5jhLibyy3iDo2ZbDXW7rL6YmM2MUo+xA9x8r5wPwXubCW1cNZS5ixxqHOzb+tklYSObdQPcV2UFcvXq+iMM+Iko4TbivKm3kg2rnLXbkuhV67FnwPa2HEpap+Zo7pkV2uBNnDOHb2va3OytA4arf71m97G3/ADLXwKq9Dljpp6VkT3+Fk8QBjmI01NswcTyN14xaCtnrpIYawwMEUbw217h12uy7G4LddfrBVitNbfbVfctiTueWOWCyt55RjJSV1aUYNddNXvbIh4rQ2tP6QlJpHEbC0ngBGt/Cbkg72svOKDEIKGOr9PkLpO7IisBrIL2zX/kpDixsGG4eadjiXzuFy43e8kgvkcfYPmF9eLYv7DQxczJTN+DFVx3V6pdXo7NOFiqbw5ZY5ZTa1hBXGMVfLm79NuRY+H8OngDu/qX1BdYguaBksNQLb3U2sWWVtSS0R83ObnJylu+yX0WhWeIcPlc4y+nupomtAIIaGXBPiLi4b3HwVWpcYMdTDG3EpKnPIGPb3RDQH3aHBxOpDi3boVL9pbI+6he9wPdygiI5vpuRZ4dR7dd/NZwXE3wd33tDHSxTPEbCwjOHOHhD22B1ta+97XCzS1xK2+b/AKXxPYwFXCKbipXmSVQW3dxcpddKrrehHChr/TPRf0jJbue8L8ouPFly5b+zW6lmcO1jhcYrKRcjRjTsbEev1BWcPObGag/Yp2N+OR3+q9YS2d9HLFBI2OZlRNHmcLhoExJ0tuWG49oUxjF3d8+b5DHxcSOVLKvLC/JD9ybt+V9iOrIKqKaGldiDz35LmSBgzsLR6hbm1Y4X10sR5qR//MVv96Tf8sf+SjeFsMDJ55KlzpayC+rjduVzbsey+uouPLYefyoseqaKCKeok9IbUsLmsuA+N5GZgbfdhGh6G3VVVVcr583ou/8AReUcRyyYDi5aL3I+aTt+Xy7ZUt6vfdkbVz1sdPUymvkz003dOjsLOvIGNcHX2IdfbkVd+F8PqI2l89U+fvGsIa5oAZpc2tve4+C5/jeG10NC903dBtRK2SVoDu+zu1AN/CACL6LrdMzKxo6NA+ATATza3suvf+iPac4rBWTK05SVxUVolHTRLm2z7Ko4zw7UuldJR1Rg70gzMt4XEC2dul2usADa17DVW5FplBSVM8jCxp4Us0fqk18mmjnjODvQ6ikmaXS2e70h51cS8DI4/ug3H+K55lTeIUDxiUFRa8fdOiJH1HHMW38jci/Ww5qz2SyosGKVLrZ3nx2NiPNN28rjfZ2/5+WhQK/BKzE5j6T9DTRPcGsBu6Sxtn945nkdBzW5hXDzaPEA+OMNhfTmNhHJ4cwkP6khpIPkVc7JZFgxvNzu7LS9oYrh4apQqsq29e7vW3ZWJaF7cUZOReN9O6MEfVeHZrO9ovY+Vul7OEssq8YqN0ZcTFliVfJJfBBViOhfHibpiLxy0+Rp+y5paS0+0NuPYVZ1iyOKddtRDElBSS5qn6fiOfwcNVJZ6E5jW0oqDK6bOM0rC7M2PINQ7a5OmmiluIcNe6popmi8cMhDmjdubLkd90FoB6XurVZLKiwYpV6fTY0z4/FlPM6/d8XJVJvu18NqXIrNVQPbicVRa7HQGK/2HAlwv5EE2PUW5he8Xgmgm9Kp2d7mYGTQggOeGklr2E6Zm3ItzB8grHZZVsi19bOP6iVq9aWWuq6FGtU4hUQOfTPggp5O9vJ4ZJHjYBvS6muIsFfPkkhlMM8dwyQAEFrt2OB3BsD5EKessqFhpJ3rZefFScouCUVFUluu93d3zs5vinAs0kMr5ZjUVRDcpOjbNcHFrb6AkAjkNdhclS/ElE+WCkkjBLYZYJHtsc2Rtg7Tq3Ukb6FXFYsq+BCmup1l7Rx5OLk/dba0SStU0kuVLTvqAVlEXYwFJ4iyxYjTT1H6jIWMcfUZLdxaXHYaWsfLyXusw702rZasY+GNzZu5a5rnhzTYWt9W9tT1I9ltngZI0te0OadwQCD7itbD8Kgp791FHHffIxrb+2wXJ4er6N2bFxdRjVqUYuK2apt666p6vVeqrW4XDcPfFiVRK8XZPEwxuG3gytc09DsfMewrRxgVlDUST00HfRz5TJGMxLZGjLmFrmxFuXwV2sllLw1VJ1rZEeLlnzSSkqUWndNJJLanei1T3KhwjhVR3s1XV2bJMA0RDZjRsD56DT/Va1VwRFHHK8SyPcyN5pw4+GCxL2Bg8iAryvLmgixGhUeDGkn+PqWfH43iOcXV0qWipbJdq07re9SncQRSV9BDJG03vFM+O2rgGnOB5+Ikdbeat8bgQCNiNF6DQNLL0rxik756fQzzxnKKhyTbXxrT6BERWOQREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREB/9k="alt=" "></a>
+<ul class="navmenu">
+<li><a href="#">HOME</a></li>
+<li><a href="#">shop</a></li>
+<li><a href="#">products</a></li>
+<li><a href="#">page</a></li>
+<li><a href="#">Docs</a></li>
+
+</ul>
+<div  class="nav-icon">
+    <a href="#"><i class='bx bx-search'></i></a>
+
+
+    <a href="#"><i class='bx bx-user'></i></a>
+    <a href="#"><i class='bx bx-cart'></i></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+</div>
+    </header>
+     <section  class ="main-home">
+     <div class="main-text">
+        <h5>Summer</h5>
+        <h1>New year <br>Offer</h1>
+        <p>there's Nothing  like  trend</p>
+        <a href="#" class ="main-btn">shop Now<i class='bx bx-right-arrow-alt'></i></a>
+     </div>
+     <div class="down-arrow">
+        <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+     </div>
+    </section>
+
+   <!--trending-products-section-->
+   <section class="trending-products "id="trending">
+    <div class="center-text">
+        <h2>Our Trending <span>Products</span></h2>
+    </div>
+    <div class="products">
+        
+        <div class="row">
+            <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/pound-cake-1658850950.webp"alt="">
+            <div class="products-text">
+                <h5> Sale</h5>
+            </div>
+            <div class ="heart-icon">
+                <i class='bx bx-heart'></i>
+
+
+            </div>
+            <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+ </div>
+ <div class="price">
+<h4>cheese cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+ </div>
+ <div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/devils-food-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>pie cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/angel-food-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>broken cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/coffee-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>mini cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/black-forest-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>cholocolate cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/black-forest-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>banana cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/pineapple-upside-down-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>cute cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+</div>
+<div class="row">
+    <img src="https://www.tastingtable.com/img/gallery/30-types-of-cake-explained/red-velvet-cake-1658850950.webp"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>mito cake </h4>
+<p>Rs 300 -Rs 400</p>
+
+
+</div>
+<div class="row">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4oxp7lSGA0lptV60Ppc7GqN1InuR5CXW8tN8ip2jey2fF4VHX"alt="">
+    <div class="product-text">
+        <h5> Sale</h5>
+    </div>
+    <div class ="heart-icon">
+        <i class='bx bx-heart'></i>
+
+
+    </div>
+    <div class ="ratting">
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star'></i>
+<i class='bx bx-star-half'></i>
+</div>
+<div class="price">
+<h4>kata cake </h4>
+<p>Rs 300 -Rs 400</p>
+<section class="content">
+    <div class="user-management">
+        <h2>User Management</h2>
+        <form action="/add_user" method="POST">
+            <input type="text" name="username" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Add User</button>
+            
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>user1</td>
+                    <td>user1@example.com</td>
+                    <td><button>Edit</button> <button>Delete</button></td>
+                </tr>
+                <!-- Add more user rows here -->
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="content">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>jane@example.com</td>
+            </tr>
+            <!-- Add more rows here -->
+        </tbody>
+    </table>
+</section>
+
+
+<section class="content">
+    <form action="/login" method="POST">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</section>
+<section class="content">
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul>
+                <li>
+                    <img src="product1.jpg" alt="Product 1">
+                    <div class="product-details">
+                        <h3>Product 1</h3>
+                        <p>$19.99</p>
+                        <input type="number" value="1">
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </li>
+                <li>
+                    <img src="product2.jpg" alt="Product 2">
+                    <div class="product-details">
+                        <h3>Product 2</h3>
+                        <p>$29.99</p>
+                        <input type="number" value="1">
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </li>
+                <!-- Add more cart items here -->
+            </ul>
+            <div class="cart-total">
+                <h3>Total: $49.98</h3>
+                <button class="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </section>
+
+</div>
+        </div>
+        <div class="product-list">
+            <h2>Product List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Product 1</td>
+                        <td>$19.99</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Product 2</td>
+                        <td>$29.99</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <!-- Add more product rows here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="add-product">
+            <h2>Add Product</h2>
+            <form>
+                <div class="input-group">
+                    <label for="product-name">Product Name:</label>
+                    <input type="text" id="product-name" name="product-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="product-price">Price:</label>
+                    <input type="text" id="product-price" name="product-price" required>
+                </div>
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+
+
+
+
+                    <div class="payment-form">
+                        <h2>Payment Details</h2>
+                        <section class="content">
+                            <div class="payment-form">
+                                <h2>Pay with eSewa 9866857163</h2>
+                                <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                                    <input type="hidden" name="tAmt" value="100"> <!-- Total Amount -->
+                                    <input type="hidden" name="amt" value="100"> <!-- Payable Amount -->
+                                    <input type="hidden" name="txAmt" value="0"> <!-- Tax Amount -->
+                                    <input type="hidden" name="psc" value="0"> <!-- Service Charge -->
+                                    <input type="hidden" name="pdc" value="0"> <!-- Delivery Charge -->
+                                    <input type="hidden" name="scd" value="EPAYTEST"> <!-- Merchant Code -->
+                                    <input type="hidden" name="pid" value="ORDER_ID_123456"> <!-- Unique Order ID -->
+                                    <input type="hidden" name="su" value="http://yourwebsite.com/success"> <!-- Success URL -->
+                                    <input type="hidden" name="fu" value="http://yourwebsite.com/failure"> <!-- Failure URL -->
+                                    <input type="hidden" name="ru" value="http://yourwebsite.com/redirect"> <!-- Redirect URL -->
+                                    <button type="submit">Pay Now</button>
+                                </form>
+                            </div>
+                        </section>
+                    </form>
+                </div>
+            </section>
+            <section class="content">
+        <div class="payment-form">
+            <h2>Pay with Mobile Banking</h2>
+            <form action="https://yourbank.com/payment" method="POST">
+                <div class="input-group">
+                    <label for="account-number">Account Number:</label>
+                    <input type="text" id="account-number" name="account-number" required>
+                </div>
+                <div class="input-group">
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" required>
+                </div>
+                <div class="input-group">
+                    <label for="pin">PIN:</label>
+                    <input type="password" id="pin" name="pin" required>
+                </div>
+                <button type="submit">Pay Now</button>
+            </form>
+        </div>
+    </section>
+        
+            <footer>
+                <p>&copy; Second option  for Payment </p>
+            </footer>
+                        <form action="/process_payment" method="POST">
+                            <div class="input-group">
+                                <label for="card-number">Card Number:</label>
+                                <input type="text" id="card-number" name="card-number" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="expiry-date">Expiry Date:</label>
+                                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YYYY" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="cvv">CVV:</label>
+                                <input type="text" id="cvv" name="cvv" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="name-on-card">Name on Card:</label>
+                                <input type="text" id="name-on-card" name="name-on-card" required>
+                            </div>
+                            <button type="submit">Pay Now</button>
+                            
+            
+            
+   </section>
+</body>
+</html>
